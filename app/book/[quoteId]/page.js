@@ -9,17 +9,6 @@ export default function BookingPage({ params }) {
   const toggleTheme = () => setIsDark(!isDark);
 
   return (
-'use client';
-
-import { useState } from 'react';
-
-export default function BookingPage({ params }) {
-  const { quoteId } = params;
-  const [isDark, setIsDark] = useState(false);
-
-  const toggleTheme = () => setIsDark(!isDark);
-
-  return (
     <div className={`min-h-screen transition-all duration-500 relative overflow-hidden ${
       isDark 
         ? 'bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-950' 
