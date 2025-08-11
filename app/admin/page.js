@@ -1,4 +1,5 @@
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from '../lib/supabaseClient';
+
 
 export default async function AdminPage() {
   // Fetch rows from the `customers` table
